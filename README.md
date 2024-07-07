@@ -8,6 +8,7 @@ alla quale dovevamo aggiungere una di questa estensioni (nel mio progetto ce ne 
 
 
 Proposte di estensione
+
 1- Nelle shell dei sistemi Unix-like è possibile appendere il carattere & alla fine di una riga di comando per indicare che il comando va eseguito in background: ossia, la shell non deve bloccarsi in attesa della terminazione del comando, ma deve proseguire in parallelo al comando e visualizzare subito il prompt successivo. Implementate in dsh l'esecuzione di un comando in background attraverso il carattere &.
 
 2- Nelle console dei sistemi Unix-like la combinazione di tasti CTRL-C genera il segnale SIGINT, che interrompe l'esecuzione di un processo. Quando premiamo CTRL-C, una shell come zsh o bash consegna il segnale al comando correntemente in esecuzione, interrompendolo, mentre se non c'è un comando in esecuzione la shell cancella il contenuto della riga di comando corrente e visualizza un nuovo prompt. Se invece premiamo CTRL-C in dsh usciamo da dsh. Implementare in dsh la gestione corretta del segnale SIGINT, in maniera che quando premiamo CTRL-C dsh non termini ma faccia terminare il comando corrente.
