@@ -1,6 +1,5 @@
 README RSO
 Antonio Carano 902447
-Camilla Cantaluppi 894557
 
 Compilazione del file con:
 gcc dsh.c -lreadline -o dsh
