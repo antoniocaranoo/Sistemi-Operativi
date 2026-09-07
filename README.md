@@ -1,6 +1,4 @@
 
-
-```text
 # DSH — Unix-like Shell
 
 **Author:** Antonio Carano  
@@ -533,4 +531,3 @@ At a high level, each command follows this execution flow:
 After each command, DSH also updates the command history and checks whether previously started background processes have terminated.
 
 
-```
